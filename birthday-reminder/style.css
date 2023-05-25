@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 170, 255, 0.633);
+}
+
+.person {
+  width: 50vw;
+  margin: 0 auto;    
+  background-color: white;
+  height: 80vh;
+  width: 30vw;
+  font-size: xx-small;
+}
+
+.card {
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+}
+
+img {
+  border-radius: 10rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.width-button {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.clearButton {
+  width: 100%;
+  background-color: purple;
+}
+.card{
+    
+}
