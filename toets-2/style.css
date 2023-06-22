@@ -1,0 +1,140 @@
+body {
+  background-image: url(img/505256-natureoutdoor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+}
+.crud {
+  width: 100vw;
+  height: 10vh;
+  background-color: #4caf50;
+  position: absolute;
+  top: 0rem;
+}
+.crud-items {
+  width: 90vw;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#festival-form {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60vw;
+  height: 60vh;
+}
+#delete-1,
+#delete-2,
+#delete-3,
+#delete-4,
+#delete-5,
+#delete-6{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#festival-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  color: #888;
+  border-radius: 5px;
+  font-size: smaller;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60vw;
+  height: 60vh;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
