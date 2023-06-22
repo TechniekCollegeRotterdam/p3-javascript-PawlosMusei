@@ -1,0 +1,44 @@
+{
+  "people": [
+    {
+      "name": "Pawlos",
+      "surname": "Abraham ",
+      "city": "Spijkenisse",
+      "number": "0685539577",
+      "mail": "pawlospro113@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "jason",
+      "surname": "van schaik",
+      "city": "rotterdam",
+      "number": "03494734343",
+      "mail": "093874@hotmail.com",
+      "id": 3
+    },
+    {
+      "name": "menno",
+      "surname": "stoop",
+      "city": "amsterdam",
+      "number": "987654345",
+      "mail": "water74@hotmail.com",
+      "id": 4
+    },
+    {
+      "name": "rida",
+      "surname": "klaas",
+      "city": "amsterdam",
+      "number": "9846583754",
+      "mail": "slayer874@hotmail.com",
+      "id": 5
+    },
+    {
+      "name": "klaas",
+      "surname": "hans",
+      "city": "rotterdam",
+      "number": "06948844",
+      "mail": "0gerrad74@hotmail.com",
+      "id": 6
+    }
+  ]
+}
